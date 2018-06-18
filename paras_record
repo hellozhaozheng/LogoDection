@@ -1,2 +1,4 @@
-res101   300   default               iter_70000.ckpt
+网络结构   参数设置                                                得分         模型标识
 res101   [4,8,16,32]   [0.3,0.5,1,2,3]  flipp   300
+res152   [4,8,16,32]   [0.3,0.5,1,2,3]  flipp   300             0.7176      res152_faster_rcnn_iter_72000
+res152   [4,8,16,32]   [0.3,0.5,1,2,3]  flipp   300                         res152_faster_rcnn_iter_120000
